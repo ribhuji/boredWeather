@@ -16,7 +16,7 @@ window.addEventListener('load', ()=> {
             exclude=hourly,daily&appid=111f113e3cb0483ff13f9f7468137c95
             `;
 
-            // const api2 = `https://us1.locationiq.com/v1/reverse.php?key=7bd738118f6428&lat=${lat}&lon=${long}&format=json`;
+            // const api2 = `https://us1.locationiq.com/v1/reverse.php?key=************&lat=${lat}&lon=${long}&format=json`;
             const api2 = `https://nominatim.openstreetmap.org/reverse?format=geojson&lat=${lat}&lon=${long}`;
             //const api2 = `https://geocode.xyz/${lat},${long}?json=1`;
 
