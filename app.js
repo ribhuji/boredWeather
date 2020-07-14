@@ -26,7 +26,7 @@ window.addEventListener('load', ()=> {
             })
             .then(data => {
                 console.log(data);
-                locationTimezone.textContent = data.features[0].properties.address.house_number;
+                locationTimezone.textContent = data.features[0].properties.address.state;
             });
 
             fetch(api)
